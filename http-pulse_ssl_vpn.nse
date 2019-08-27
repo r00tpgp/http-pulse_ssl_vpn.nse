@@ -1,7 +1,7 @@
 description = [[
 Pulse Secure SSL VPN file disclosure via specially crafted HTTP resource requests.
 This exploit reads /etc/passwd as a proof of concept
-This vulnerability affect ( 8.1R15.1, 8.2 before 8.2R12.1, 8.3 before 8.3R7.1, and 9.0 before 9.0R3.4
+This vulnerability affect ( 8.1R15.1, 8.2 before 8.2R12.1, 8.3 before 8.3R7.1, and 9.0 before 9.0R3.4)
 ]]
 
 local http = require "http"
