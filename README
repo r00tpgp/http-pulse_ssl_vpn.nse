@@ -16,7 +16,7 @@ $ sudo cp http-pulse_ssl_vpn.nse /usr/share/nmap/scripts/
 USAGE
 -----
 
-$ sudo nmap -n -p 443 --script http-pulse_ssl_vpn -n victim_ip_addr
+$ sudo nmap -n -p 443 --script http-pulse_ssl_vpn -n victim_host
 
 PORT    STATE SERVICE
 443/tcp open  https
